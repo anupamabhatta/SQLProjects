@@ -1,53 +1,30 @@
-# SQL Final Project: Fruits and Vegetable Prices in USA
+# My SQL Projects
 
-This repository contains the final project for analyzing a dataset containing information on fruits and vegetable prices in the USA.
+## Files and Folders
 
-## Project Overview
+- `.DS_Store`: A macOS system file storing custom attributes of a folder.
+- `ERD.png`: An image depicting an Entity-Relationship Diagram (ERD) for a database schema.
+- `Prices.xlsx`: An Excel file containing price data.
+- `README.md`: This Markdown file providing an overview of the repository.
+- `SI 564_Final Project-Anupama Bhatta.docx`: A Microsoft Word document describing my final project for the SI 564 course.
+- `SI 564_Final Project-Anupama Bhatta.pdf`: A PDF version of the final project document for the SI 564 course.
+- `SQL Final Project.pdf`: A PDF document detailing my final SQL project.
+- `employee_training.sql`: An SQL file containing queries related to employee training data.
+- `fruits_n_veggies.sql`: An SQL file containing queries related to a fruits and vegetables database.
+- `library.sql`: An SQL file containing queries related to a library database.
+- `newspaper.sql`: An SQL file containing queries related to a newspaper database.
+- `~$Prices.xlsx`: A temporary file created by Microsoft Excel when Prices.xlsx is opened.
 
-**Project Title:** Fruits and Vegetable Prices in USA  
-**Author:** Anupama Bhatta  
-**Submission Date:** November 29, 2023   
+## Overview
 
-## Project Description
+This repository serves as a compilation of my SQL projects. Each SQL file contains queries, data definitions, or database operations pertaining to specific project scenarios or datasets.
 
-The project aims to decipher a massive dataset containing information on fruits and vegetable prices in the USA. Dr. Lawrence Summerset, the head of the research group, has requested support from the database administration (DBA) team to analyze the dataset and extract relevant insights.
+## Usage
 
-## Project Deliverables
+You can explore the SQL files to understand the database schemas, queries, and data analysis tasks performed. To execute the SQL queries or import the database schema into your own environment, you can utilize a relational database management system (RDBMS) such as MySQL, PostgreSQL, SQLite, or Microsoft SQL Server.
 
-The project includes the following deliverables:
+Feel free to review, modify, or utilize these SQL projects for learning purposes or in your own projects. If you have any questions or suggestions, please don't hesitate to reach out.
 
-1. **Database Queries and Analysis:** The dataset analysis involves several SQL queries to extract specific data points and insights.
-2. **Database Design Choices:** An explanation of the database design choices made during the project, including table structures, primary keys, foreign keys, and normalization.
-3. **Database Export:** The database export file (`fruits_n_veggies.sql`) has been provided for reference.
+---
 
-## Database Queries and Analysis
-
-The SQL queries performed on the dataset include:
-
-1. Count of items with a priceUnit of "pound"
-2. Listing all distinct forms and the count of items associated with each form
-3. Identifying the top 5 most expensive items with their prices and associated forms
-4. Calculating the average price for each priceUnit across all items
-5. Determining the average price of items for each form, displayed in descending order of average price
-6. Calculating the total amount spent on items for each form
-7. Identifying the forms with the highest price variation among their items
-
-## Database Design Choices
-
-The database design choices aim to establish a normalized structure that optimizes data integrity and flexibility. The core tables include:
-
-- **Items:** Contains information about fruits and vegetables.
-- **Forms:** Stores different varieties or forms of fruits and vegetables.
-- **Prices:** Establishes relationships between items, forms, and pricing information.
-
-The **prices** table serves as the central table, connecting items and forms with pricing data. Foreign key constraints ensure referential integrity, preventing orphaned records and maintaining consistency in relationships.
-
-## Database Export
-
-The database export file (`fruits_n_veggies.sql`) has been included in the repository.
-
-## Contact Information
-
-For any inquiries regarding the project, please contact Anupama Bhatta at [bhatta.anupama1@gmail.com](mailto:bhatta.anupama1@gmail.com).
-
-Thank you for your support and collaboration on this project!
+Feel free to customize this README.md file to include any additional information or sections specific to your SQL projects or development process.
